@@ -36,3 +36,5 @@ Email Security Gateways: Implement tools that automatically scan attachments and
 Security Awareness Training: Conduct simulated phishing tests to educate users on spotting sophisticated attacks.
 5. ///Phishing Email Sample///
    https://github.com/ZeroCool-Nah/FUTURE_CS_01/blob/main/Task_02_Phishing_Detection/file_000000001e9c722fb80d7c014fed5faf.png
+6. ///Legitimate Email Sample///
+   https://github.com/ZeroCool-Nah/FUTURE_CS_01/blob/main/Task_02_Phishing_Detection/Screenshot_20260317_181328_Chrome.jpg
