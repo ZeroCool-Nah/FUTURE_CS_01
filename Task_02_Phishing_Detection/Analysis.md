@@ -34,6 +34,6 @@ For Organizations/Developers:
 Strict DMARC Policy: Set your DMARC record to p=reject to ensure that unauthorized emails are blocked before they reach the inbox.
 Email Security Gateways: Implement tools that automatically scan attachments and links for malicious behavior.
 Security Awareness Training: Conduct simulated phishing tests to educate users on spotting sophisticated attacks.
-5. [Phishing Email Sample](./Task_02_Phishing_Detection/IMAGE3)
+5. [Phishing Email Sample](./FUTURE_CS_01/Task_02_Phishing_Detection/IMAGE3)
 6. ///Legitimate Email Sample///
    https://github.com/ZeroCool-Nah/FUTURE_CS_01/blob/main/Task_02_Phishing_Detection/Screenshot_20260317_181328_Chrome.jpg
