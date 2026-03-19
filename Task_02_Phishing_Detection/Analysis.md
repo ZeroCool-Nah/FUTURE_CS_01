@@ -1,4 +1,4 @@
-Phishing Attack Analysis: Email Authentication Headers
+# Phishing Attack Analysis: Email Authentication Headers
 This documentation provides a technical breakdown of email security protocols (SPF, DKIM, and DMARC) used to identify and mitigate phishing attempts, based on the comparative analysis of legitimate and malicious email headers.
 1. Overview of the Analysis
 The analysis utilizes the "Show Original" feature of a webmail client to inspect the metadata of incoming messages. By comparing a legitimate service email with a spoofed "Security Alert," we can identify the technical failures that trigger phishing warnings.
