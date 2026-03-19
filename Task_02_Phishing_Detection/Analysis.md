@@ -3,9 +3,9 @@ This documentation provides a technical breakdown of email security protocols (S
 1. Overview of the Analysis
 The analysis utilizes the "Show Original" feature of a webmail client to inspect the metadata of incoming messages. By comparing a legitimate service email with a spoofed "Security Alert," we can identify the technical failures that trigger phishing warnings.
  * Legitimate Case: The email from studocu.com aligns with all security protocols, resulting in a "PASS" status.
- ### [Legitimate Email Sample](./IMAGE3.jpg)
+# [Legitimate Email Sample](./IMAGE3.jpg)
  * Phishing Case: The email from googl-service-com.com fails all primary authentication checks, leading to a high-risk warning banner.
- ### [Phishing Email Sample](./IMAGE4.png)
+ # [Phishing Email Sample](./IMAGE4.png)
 2. Technical Explanation of Authentication Protocols
 SPF (Sender Policy Framework)
 SPF is a DNS-based mechanism that allows a domain owner to publish a list of authorized IP addresses allowed to send email on their behalf. When an email is received, the mail server checks if the sender's IP matches the list in the DNS record. In the phishing example, SPF failed because the IP 47.189.215.11 was not authorized to send mail for the domain it claimed to represent.
