@@ -19,9 +19,9 @@ Request Automation (Bash Loops)
 To test server stability or rate-limiting behavior, a shell loop was used to execute multiple requests sequentially.
  * Command: for i in {1..10}; do curl -I -s [URL] | grep "HTTP/"; done
  * Function: This loop sends 10 requests. The -I (head) flag fetches only the headers, making the process faster and using less bandwidth when only the status code (200 OK) is needed for verification.
- * [Excessive Data Exposure Analysis Result](./IMAGE5)
- * [Broken Object Level Authorization(BOLA) Analysis Result](./IMAGE6)
- * [Rate Limiting Analysis Result](./IMAGE7)
+ * [Excessive Data Exposure Analysis Result](./IMAGE5.jpg)
+ * [Broken Object Level Authorization(BOLA) Analysis Result](./IMAGE6.jpg)
+ * [Rate Limiting Analysis Result](./IMAGE7.jpg)
 3. Analysis of API Behavior
  * Data Integrity: The API correctly returned unique user data for different endpoints (e.g., users/1 for Leanne Graham and users/2 for Ervin Howell).
  * Rate Limiting: The x-ratelimit-remaining header (seen as 999 in Case 1) confirms the server is tracking usage. In a security context, a "Task 03" like this would be used to see if a server properly blocks excessive requests (e.g., a 429 Too Many Requests status).
